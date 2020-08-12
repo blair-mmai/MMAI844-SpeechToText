@@ -44,7 +44,11 @@ AZURE_STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=trai
 container_name='testcon'
 # Specify the path to an audio file containing speech (mono WAV / PCM with a sampling rate of 16
 # kHz).
-inputfilename = "C:/Swadesh/MMAI/MMAI 844/training/audio1.wav"
+
+
+
+# inputfilename = "C:/Swadesh/MMAI/MMAI 844/training/audio1.wav"
+inputfilename = "C:\Users\Boreal\Desktop\Personal\Education\Smith\MMAI-844 - Agile Mgmt\Group-PaaS-Trainings(4)\__BROADVIEW_Tutorial__after_Aug9th\SpeechToText\MMAI844-SpeechToText\Audiofiles/audio1.wav"
 outputfilename = "speech2text.csv"
 
 def speech_recognize_once_from_mic():
