@@ -37,7 +37,8 @@ except ImportError:
 
 # Set up the subscription info for the Speech Service:
 # Replace with your own subscription key and service region (e.g., "westus").
-speech_key, service_region = "8fe4ff90e44d4e65a8f2836000aff137", "eastus"
+# speech_key, service_region = "8fe4ff90e44d4e65a8f2836000aff137", "eastus"
+speech_key, service_region = "34a500eb9732496081765de5acd0608c", "eastus"
 # AZURE_STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=trainstorage2020;AccountKey=s4cx8Io6R6dYD4V+9iqCqTwHufFqWDnxFN8FXrYOH0Da7o5qrE+uuMR9Fj4z5bXmO9+CcKNH5JovqkyhD7kT/g==;EndpointSuffix=core.windows.net'
 AZURE_STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=trainstorageblair2020;AccountKey=1GBSBikahSYyPLCzxHentX886YZdRoc4L519RXAQNJ+AMVP10D4BqdW1C6Xx8WVuTIR/fY87S/xVHimW8jh+8w==;EndpointSuffix=core.windows.net'
 container_name='testcon'
