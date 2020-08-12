@@ -48,7 +48,8 @@ container_name='testcon'
 
 
 # inputfilename = "C:/Swadesh/MMAI/MMAI 844/training/audio1.wav"
-inputfilename = "C:\Users\Boreal\Desktop\Personal\Education\Smith\MMAI-844 - Agile Mgmt\Group-PaaS-Trainings(4)\__BROADVIEW_Tutorial__after_Aug9th\SpeechToText\MMAI844-SpeechToText\Audiofiles/audio1.wav"
+# inputfilename = "C:/Users/Boreal/Desktop/Personal/Education/Smith/MMAI-844 - Agile Mgmt/Group-PaaS-Trainings(4)/__BROADVIEW_Tutorial__after_Aug9th/SpeechToText/MMAI844-SpeechToText/Audiofiles/audio1.wav"
+inputfilename = "Audiofiles/audio1.wav"
 outputfilename = "speech2text.csv"
 
 def speech_recognize_once_from_mic():
@@ -123,7 +124,7 @@ def speech_recognize_once_from_file():
     df = pd.DataFrame()  #pd.DataFrame(columns=['comment'])
     df['comment']=[str(result.text)] 
     #
-    df.to_csv('C:/Swadesh/MMAI/MMAI 844/training/speech2text.csv')
+    df.to_csv('speech2text.csv')
     
     # </SpeechRecognitionWithFile>
     
